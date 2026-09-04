@@ -1,283 +1,201 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jinshi Liu's Academic Homepage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-            padding: 20px;
-        }
-        header {
-            background: #2c3e50;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-            position: relative;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        section {
-            background: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #2c3e50;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 10px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin: 10px 0;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #2c3e50;
-            color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .lang-toggle {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: #3498db;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1em;
-        }
-        .lang-toggle:hover {
-            background: #2980b9;
-        }
-        .content-en, .content-zh {
-            display: none;
-        }
-        .content-en.active, .content-zh.active {
-            display: block;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1 id="header-title-en" class="content-en active">Jinshi Liu's Academic Homepage</h1>
-        <h1 id="header-title-zh" class="content-zh">刘金狮的学术主页</h1>
-        <p id="header-subtitle-en" class="content-en active">Welcome to explore my academic journey and research achievements</p>
-        <p id="header-subtitle-zh" class="content-zh">欢迎了解我的学术历程与研究成果</p>
-        <button class="lang-toggle" onclick="toggleLanguage()">Switch to Chinese</button>
-    </header>
-
-    <div class="container">
-        <!-- English Content -->
-        <div id="content-en" class="content-en active">
-            <section id="interest-en">
-                <h2>Interest</h2>
-                <ul>
-                    <li>Semi-supervised Learning</li>
-                    <li>Image/Video/3D Segmentation</li>
-                    <li>VL/Multimodal Understanding</li>
-                    <li>AI for Science</li>
-                </ul>
-            </section>
-
-            <section id="education-en">
-                <h2>Education</h2>
-                <ul>
-                    <li>2013-2017: Central South University, School of Information Science and Engineering, Intelligent Science and Technology, Bachelor's Degree</li>
-                    <li>2017-2020: Central South University, School of Automation, Control Science and Engineering, Master's Degree</li>
-                    <li>2020-2024: Central South University, School of Automation, Control Science and Engineering, Doctoral degree</li>
-                    <li>2021-2024: Pengcheng Laboratory, Frontier Academic Center, Industrial Intelligence Academician Studio, Visiting Ph.D.</li>
-                    <li>2024-2026: Central South University, School of Automation, Computer Science and Technology, Postdoctoral</li>
-                </ul>
-            </section>
-
-            <section id="publications-en">
-                <h2>Publications_Main Journal</h2>
-                <ul>
-                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen. "A novel particle size detection system based on RGB-laser fusion segmentation with feature dual-recalibration for blast furnace materials," <i>IEEE Transactions on Industrial Electronics</i>, 70(10), 10690-10699, 2022. (Q1, if=7.2)</li>
-                    <li><b>J Liu</b>, Z Jiang, T Cao, Z Chen, C Zhang, W Gui. "Generated pseudo-labels guided by background skeletons for overcoming under-segmentation in overlapping particle objects," <i>IEEE Transactions on Circuits and Systems for Video Technology</i>, 33(6), 2906-2919, 2022. (Q1, if=11.1)</li>
-                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, C Zhang. "Occlusion segmentation: restore and segment invisible areas for particle objects," <i>IEEE Transactions on Automation Science and Engineering</i>, vol. 22, pp. 6631-6642, 2025. (Q1, if=6.4)</li>
-                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, W Luo, C Zhang. "Hierarchical packing model: Estimating the overall particle size distribution from surface images and permeability properties," <i>IEEE Transactions on Instrumentation and Measurement</i>, 73, 1-11, 2023. (Q1, if=5.9)</li>
-                    <li>Z Jiang, C Xu, <b>J Liu</b>*, W Luo, Z Chen, W Gui. "A dual closed-loop digital twin construction method for optimizing the copper disc casting process," <i>IEEE/CAA Journal of Automatica Sinica</i>, 11(3), 581-594, 2024. (Q1, if=19.2)</li>
-                    <li>Z Jiang, <b>J Liu</b>*, Z Chen, W Luo, C Zhang, W Gui. "Overall particle size distribution estimation method based on kinetic modeling and transformer prediction," <i>Engineering Applications of Artificial Intelligence</i>, 128, 107517, 2024. (Q1, if=8.0)</li>
-                    <li>Z Jiang, J Yu, <b>J Liu</b>*, Z Chen, W Gui, T Cao. "A coke detection method based on reweighting a composite feature for mixed material recognition and quantification," <i>IEEE Transactions on Instrumentation and Measurement</i>, 71, 1-12, 2022. (Q1, if=5.9)</li>
-                    <li>L He, Z Yi, <b>J Liu</b>, C Chen, M Lu, Z Chen. "ALSP+: Fast Scene Recovery via Ambient Light Similarity Prior," <i>IEEE Transactions on Image Processing</i>, vol. 34, pp. 4470-4484, 2025. (Q1, if=13.7, <a href="https://github.com/heyuanlei/ALSP">Code</a>)</li>
-                </ul>
-                <h2>Publications_Main Conference</h2>
-                <ul>
-                    <li>Pan Liu, <b>J Liu</b>*. "When Confidence Fails: Revisiting Pseudo-Label Selection in Semi-supervised Semantic Segmentation," <i>IEEE of International Conference on Computer Vision (<b>ICCV 2025 highlight</b>)(<a href="https://github.com/PanLiuCSU/CSL">Code</a>, <a href="https://arxiv.org/abs/2509.16704">arXiv</a>)</li>
-                </ul>
-            </section>
-
-            <section id="funded projects-en">
-                <h2>Funded Projects</h2>
-                <ul>
-                    <li>National Natural Youth Science Foundation of China (Class C), A Generative Construction Method of Twins in the Airflow Field of Zinc Smelting Rotary Volatile Hair Kiln Spinning and Falling Materials Based on Permeability Characterization, 300,000 CNY, in progress, under the chairmanship of, 2026/01-2028/12</li>
-                    <li>Nationally Funded Postdoctoral Fellowship Program of China (C-level), A Topological Construction Method of Twins in the Airflow Field of Zinc Smelting Rotary Volatile Hair Kiln Spinning and Falling Materials Based on Permeability Analysis Constructing Methods, 240,000 CNY, under research, presided over, 2024/07-2026/07</li>
-                    <li>National Postdoctoral Fellowship Program of Hunan Province (Special Funding), Construction of Hypergraphic Twin Topology for Zinc Smelting Volatile Kiln Coupling Spinning Down Particles and Airflow, 180,000 CNY, under research, presided over, 2026/01-2027/12</li>
-                    <li>Hunan Provincial Natural Science Youth Fund Project, Research on the Flexible Construction Method of Zinc Smelting Reactor Twins Based on Metacellular Graph Learning, 50,000 CNY, under research, presided over, 2025/01-2027/12</li>
-                    <li>Key Research and Development Program of the Ministry of Science and Technology of the People's Republic of China, On-line Detection Equipments for Solid Waste Recycling Process in Zinc Smelting and Digital Regulation Technology, 15 million CNY, under research, backbone of the project, 2025/01-2027/12</li>   
-                    <li>National Natural Science Foundation General Program Project: Early Warning Method for Internal Short Circuits in Lithium-Ion Energy Storage Batteries Considering Aging Characteristics and Time-Frequency Dynamic Coupling, 600,000 CNY, in progress, project key member, 2026/01-2029/12</li>             
-                </ul>
-            </section>
-
-            <section id="reward-en">
-                <h2>Reward</h2>
-                <ul>
-                    <li>Bronze Award, 2nd Hunan Provincial Postdoctoral Innovation and Entrepreneurship Competition, "Metaverse for Intelligent Non-Ferrous Smelting", Human Resources and Social Security Department of Hunan Province, 2025</li>
-                    <li>National Third Prize (National Finals), 3rd Industrial Digital Twin Competition, "Digital Twin System and VR Application for Large Blast Furnace Ironmaking", China Academy of Information and Communications Technology, 2024</li>
-                    <li>Second Prize for Outstanding Paper, "Intelligent Perception and Intelligent Decision-Making" Forum, 16th Hunan Provincial Graduate Student Innovation Forum, "Digital Twin Modeling and Transformer Prediction-Based Overall Particle Size Distribution Online Estimation", Education Department of Hunan Province, 2023</li>
-                    <li>First Prize for Outstanding Paper, "Machine Vision and Artificial Intelligence" Forum, 15th Hunan Provincial Graduate Student Innovation Forum, "Dual-Stage Segmentation of Industrial Particle Images Under Complex Texture Interference", Education Department of Hunan Province, 2022</li>
-                    <li>Outstanding Paper Award in Innovation and Entrepreneurship, "Innovation in China" Initiative, "3D Visual Monitoring System for Blast Furnace Ironmaking Process Based on Virtual Reality", Central South University, 2020</li>
-                    <li>First Prize, 4th Mining and Metallurgical Engineering Chemistry Virtual Simulation Competition, "Virtual Simulation of Internal Reactions in a Blast Furnace", Central South University, 2018</li>
-                    <li>Recipient, Central South University President's Innovation Scholarship, 2023 (Top 1%)</li>                
-                </ul>
-            </section>
-
-            <section id="contact-en">
-                <h2>Contact</h2>
-                <ul>
-                    <li>Work Email: <a href="mailto:ljs11528@csu.edu.cn">ljs11528@csu.edu.cn</a></li>
-                    <li>Personal Email: <a href="mailto:liujs11528@gmail.com">liujs11528@gmail.com</a></li>
-                    <li>Personal Email_CN: <a href="mailto:598003084@qq.com">598003084@qq.com</a></li>
-                    <li>Google Scholar: <a href="https://scholar.google.com/citations?user=Ep-tr-wAAAAJ&hl=zh-CN&oi=ao">Google Scholar Profile</a></li>
-                    <li>Github: <a href="https://github.com/ljs11528">https://github.com/ljs11528</a></li>
-                    <li>Address: School of Automation, Central South University, Changsha, Hunan, China</li>
-                </ul>
-            </section>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="刘金狮的学术主页｜深圳大学人工智能学院｜可信学习、视觉感知与复杂场景智能" />
+    <meta name="theme-color" content="#101b2b" />
+    <title>刘金狮 · 学术主页</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar" id="top">
+        <a class="brand" href="#top" aria-label="Jinshi Liu academic homepage">
+          <span class="brand-mark">JL</span>
+          <span class="brand-copy"><strong>Jinshi Liu</strong><small>Academic Homepage</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#research" data-copy="nav.research">研究方向</a>
+          <a href="#publications" data-copy="nav.publications">论文</a>
+          <a href="#projects" data-copy="nav.projects">项目</a>
+          <a href="#awards" data-copy="nav.awards">奖励</a>
+          <a href="#background" data-copy="nav.background">背景</a>
+          <a href="#contact" data-copy="nav.contact">联系</a>
+        </nav>
+        <div class="topbar-actions">
+          <a class="mini-mail" href="mailto:jsl@szu.edu.cn" aria-label="Email Jinshi Liu">↗</a>
+          <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language">EN</button>
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
         </div>
+      </header>
 
-        <!-- Chinese Content -->
-        <div id="content-zh" class="content-zh">
-            <section id="interest-en">
-                <h2>兴趣</h2>
-                <ul>
-                    <li>半监督学习Semi-supervised Learning</li>
-                    <li>图像/视频/3D分割Image/Video/3D Segmentation</li>
-                    <li>视觉语言/多模态理解VL/Multimodal Understanding</li>
-                    <li>AI for Science</li>
-                </ul>
-            </section>
-            
-            <section id="education-zh">
-                <h2>教育背景</h2>
-                <ul>
-                    <li>2013-2017：中南大学，信息科学与工程学院，智能科学与技术，学士学位</li>
-                    <li>2017-2020：中南大学，自动化学院，控制科学与工程，硕士学位</li>
-                    <li>2020-2024：中南大学，自动化学院，控制科学与工程，博士学位</li>
-                    <li>2021-2024：鹏城实验室，前沿学术中心，工业智能院士工作室，访问博士</li>
-                    <li>2024-2026：中南大学，自动化学院，计算机科学与技术，博士后</li>
-                </ul>
-            </section>
+      <main>
+        <section class="hero section-pad" aria-labelledby="hero-title">
+          <div class="hero-grid page-width">
+            <div class="hero-copy">
+              <p class="eyebrow"><span class="eyebrow-dot"></span><span data-copy="hero.kicker">深圳大学 · 人工智能学院</span></p>
+              <h1 id="hero-title"><span>Jinshi</span> <span>Liu</span><em>刘金狮</em></h1>
+              <p class="hero-role" data-copy="hero.role">助理教授/特聘副研究员｜可信学习 · 视觉感知 · 复杂场景智能</p>
+              <p class="hero-summary" data-copy="hero.summary">面向复杂真实场景，研究如何让视觉模型在不确定、遮挡与分布变化下仍然可靠，并将感知、复杂系统建模与智能决策连接起来。</p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="#publications" data-copy="hero.primary">浏览研究成果 <span>↓</span></a>
+                <a class="button button-ghost" href="#contact" data-copy="hero.secondary">联系交流 <span>↗</span></a>
+              </div>
+              <div class="hero-meta">
+                <span><i></i><span data-copy="hero.meta1">欢迎对可信 AI、视觉感知与复杂场景智能感兴趣的同学交流</span></span>
+                <span><span data-copy="hero.updatedLabel">更新于</span> <b>2026.09</b></span>
+              </div>
+            </div>
 
-            <section id="publications-zh">
-                <h2>学术成果_主要期刊论文</h2>
-                <ul>
-                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen. "A novel particle size detection system based on RGB-laser fusion segmentation with feature dual-recalibration for blast furnace materials," <i>IEEE Transactions on Industrial Electronics</i>, 70(10), 10690-10699, 2022. (Q1, if=7.2)</li>
-                    <li><b>J Liu</b>, Z Jiang, T Cao, Z Chen, C Zhang, W Gui. "Generated pseudo-labels guided by background skeletons for overcoming under-segmentation in overlapping particle objects," <i>IEEE Transactions on Circuits and Systems for Video Technology</i>, 33(6), 2906-2919, 2022. (Q1, if=11.1)</li>
-                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, C Zhang. "Occlusion segmentation: restore and segment invisible areas for particle objects," <i>IEEE Transactions on Automation Science and Engineering</i>, vol. 22, pp. 6631-6642, 2025. (Q1, if=6.4)</li>
-                    <li><b>J Liu</b>, Z Jiang, W Gui, Z Chen, W Luo, C Zhang. "Hierarchical packing model: Estimating the overall particle size distribution from surface images and permeability properties," <i>IEEE Transactions on Instrumentation and Measurement</i>, 73, 1-11, 2023. (Q1, if=5.9)</li>
-                    <li>Z Jiang, C Xu, <b>J Liu</b>*, W Luo, Z Chen, W Gui. "A dual closed-loop digital twin construction method for optimizing the copper disc casting process," <i>IEEE/CAA Journal of Automatica Sinica</i>, 11(3), 581-594, 2024. (Q1, if=19.2)</li>
-                    <li>Z Jiang, <b>J Liu</b>*, Z Chen, W Luo, C Zhang, W Gui. "Overall particle size distribution estimation method based on kinetic modeling and transformer prediction," <i>Engineering Applications of Artificial Intelligence</i>, 128, 107517, 2024. (Q1, if=8.0)</li>
-                    <li>Z Jiang, J Yu, <b>J Liu</b>*, Z Chen, W Gui, T Cao. "A coke detection method based on reweighting a composite feature for mixed material recognition and quantification," <i>IEEE Transactions on Instrumentation and Measurement</i>, 71, 1-12, 2022. (Q1, if=5.9)</li>
-                    <li>L He, Z Yi, <b>J Liu</b>, C Chen, M Lu, Z Chen. "ALSP+: Fast Scene Recovery via Ambient Light Similarity Prior," <i>IEEE Transactions on Image Processing</i>, vol. 34, pp. 4470-4484, 2025. (Q1, if=13.7, <a href="https://github.com/heyuanlei/ALSP">Code</a>)</li>
-                </ul>
-                <h2>学术成果_主要会议论文</h2>
-                <ul>
-                    <li>Pan Liu, <b>J Liu</b>*. "When Confidence Fails: Revisiting Pseudo-Label Selection in Semi-supervised Semantic Segmentation," <i>IEEE of International Conference on Computer Vision (<b>ICCV 2025 highlight</b>)(<a href="https://github.com/PanLiuCSU/CSL">Code</a>, <a href="https://arxiv.org/abs/2509.16704">arXiv</a>)</li>
-                </ul>
-            </section>
+            <div class="hero-visual" aria-label="Abstract visual representing reliable perception">
+              <div class="visual-orbit orbit-one"></div>
+              <div class="visual-orbit orbit-two"></div>
+              <svg class="signal-map" viewBox="0 0 600 520" role="img" aria-label="Signal field illustration">
+                <defs>
+                  <linearGradient id="signalGradient" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0%" stop-color="#8ce6d0" />
+                    <stop offset="100%" stop-color="#ff987c" />
+                  </linearGradient>
+                  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+                    <feGaussianBlur stdDeviation="4" result="blur" />
+                    <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+                  </filter>
+                </defs>
+                <g class="grid-lines">
+                  <path d="M34 80H565M34 170H565M34 260H565M34 350H565M34 440H565" />
+                  <path d="M90 36V484M190 36V484M290 36V484M390 36V484M490 36V484" />
+                </g>
+                <path class="signal-line signal-back" d="M38 397 C110 286 128 333 191 241 S277 147 331 225 S431 387 560 151" />
+                <path class="signal-line signal-front" d="M38 397 C110 286 128 333 191 241 S277 147 331 225 S431 387 560 151" />
+                <path class="signal-line signal-secondary" d="M38 154 C119 203 134 112 202 164 S298 374 369 315 S447 180 560 272" />
+                <g class="signal-nodes" filter="url(#softGlow)">
+                  <circle cx="38" cy="397" r="7" /><circle cx="191" cy="241" r="7" /><circle cx="331" cy="225" r="7" /><circle cx="560" cy="151" r="7" />
+                  <circle cx="38" cy="154" r="5" /><circle cx="202" cy="164" r="5" /><circle cx="369" cy="315" r="5" />
+                </g>
+                <text x="44" y="54" class="svg-caption">RELIABLE PERCEPTION</text>
+                <text x="409" y="468" class="svg-caption">SIGNAL / FIELD / CONTEXT</text>
+              </svg>
+              <div class="visual-note note-one"><span>01</span><strong>uncertainty</strong><small>model confidence</small></div>
+              <div class="visual-note note-two"><span>02</span><strong>occlusion</strong><small>hidden structure</small></div>
+              <div class="visual-note note-three"><span>03</span><strong>context</strong><small>real + structured</small></div>
+              <div class="visual-stamp">LJS<br /><small data-copy="hero.stamp">深圳 · 2026</small></div>
+            </div>
+          </div>
+        </section>
 
-            <section id="funded projects-zh">
-                <h2>获资助的项目</h2>
-                <ul>
-                    <li>国家自然青年科学基金项目（C类），基于透气性表征的锌冶炼回转挥发窑旋落物料气流场孪生体生成式构建方法，30万，在研，主持，2026/01-2028/12</li>
-                    <li>国家资助博士后研究人员计划C档，基于渗透分析的锌冶炼挥发窑旋落物料气流场孪生体拓扑构建方法，24万，在研，主持，2024/07-2026/07</li>
-                    <li>国家博士后基金湖南联合资助项目（特别资助），旋落颗粒与气流耦合的锌冶炼挥发窑超图孪生体拓扑构建，18万，在研，主持，2026/01-2027/12</li>
-                    <li>湖南省自然科学青年基金项目，基于元胞图学习的锌冶炼反应釜孪生体柔性构建方法研究，5万，在研，主持，2025/01-2027/12</li>
-                    <li>国家科技部重点研发计划，锌冶炼固废循环过程在线检测装备与数字调控技术，1500万，在研，项目骨干，2025/01-2027/12</li>
-                    <li>国家自然科学面上基金项目，考虑老化特性与时频动态耦合的储能锂离子电池内短路早期预警方法，60万，在研，项目骨干，2026/01-2029/12</li>
-                </ul>
-            </section>
+        <section class="intro-strip section-pad">
+          <div class="page-width intro-grid">
+            <div class="intro-lead">
+              <p class="section-kicker" data-copy="intro.kicker">研究主线</p>
+              <h2 data-copy="intro.title">从“看见”到“可信地理解”</h2>
+            </div>
+            <p class="intro-text" data-copy="intro.text">我的研究围绕可信视觉学习展开：一端是半监督学习、伪标签与遮挡分割，另一端是粒径感知、复杂过程建模与智能系统。目标是让模型不仅给出答案，也能在复杂环境中说明答案有多可靠。</p>
+            <div class="stat-row" aria-label="Research statistics">
+              <div><strong>10</strong><span data-copy="stats.publications">篇主要论文</span></div>
+              <div><strong>07</strong><span data-copy="stats.projects">项基金/科研项目</span></div>
+            </div>
+          </div>
+        </section>
 
-            <section id="reward-zh">
-                <h2>奖励</h2>
-                <ul>
-                    <li>第二届湖南省博士后创新创业大赛铜奖，有色冶炼智造元宇宙，湖南省人社厅，2025</li>
-                    <li>第三届工业数字孪生大赛全国总决赛国家三等奖，大型高炉炼铁数字孪生系统及VR应用，中国信息通信研究院，2024</li>
-                    <li>湖南省第十六届研究生创新论坛“智能感知与智能决策”优秀论文二等奖，Digital Twin Modeling and Transformer Prediction-Based Overall Particle Size Distribution Online Estimation，湖南省教育厅，2023</li>
-                    <li>湖南省第十五届研究生创新论坛“机器视觉与人工智能”优秀论文一等奖，复杂纹理干扰下的工业颗粒图像双阶段分割，湖南省教育厅，2022</li>
-                    <li>“创响中国”创新创业优秀论文奖，基于虚拟现实的高炉炼铁过程3D可视化监控系统，中南大学，2020</li>
-                    <li>第四届矿冶工程化学虚拟仿真大赛一等奖，高炉内部反应虚拟仿真，中南大学，2018</li>
-                    <li>中南大学校长创新奖学金获得者，2023（前1%）</li>
-                </ul>
-            </section>
+        <section class="content-section section-pad" id="research" aria-labelledby="research-title">
+          <div class="page-width">
+            <div class="section-heading">
+              <div><p class="section-kicker">01 / <span data-copy="sections.researchKicker">研究方向</span></p><h2 id="research-title" data-copy="sections.researchTitle">让智能感知更可靠、更接近真实世界</h2></div>
+              <p data-copy="sections.researchIntro">以视觉学习为核心，连接基础方法、三维理解与复杂场景应用。</p>
+            </div>
+            <div class="research-layout">
+              <div class="research-grid" id="research-grid"></div>
+              <aside class="research-aside">
+                <div class="aside-label" data-copy="researchAside.label">RESEARCH LENS</div>
+                <h3 data-copy="researchAside.title">可靠性不是一个分数，而是一条链路。</h3>
+                <p data-copy="researchAside.text">从数据、模型到物理过程，研究关注不确定性如何产生、如何被识别，以及如何转化为更稳健的决策。</p>
+                <div class="current-focus-block">
+                  <div class="aside-label" data-copy="researchAside.focusLabel">当前研究重点 · 2024–至今</div>
+                  <div class="focus-chips" id="current-focus"></div>
+                </div>
+                <div class="lens-list"><span>DATA</span><span>MODEL</span><span>WORLD</span></div>
+              </aside>
+            </div>
+          </div>
+        </section>
 
-            <section id="contact-zh">
-                <h2>联系方式</h2>
-                <ul>
-                    <li>工作邮箱: <a href="mailto:ljs11528@csu.edu.cn">ljs11528@csu.edu.cn</a></li>
-                    <li>个人邮箱: <a href="mailto:liujs11528@gmail.com">liujs11528@gmail.com</a></li>
-                    <li>个人邮箱_CN: <a href="mailto:598003084@qq.com">598003084@qq.com</a></li>
-                    <li>谷歌学术: <a href="https://scholar.google.com/citations?user=Ep-tr-wAAAAJ&hl=zh-CN&oi=ao">Google Scholar Profile</a></li>
-                    <li>Github: <a href="https://github.com/ljs11528">https://github.com/ljs11528</a></li>
-                    <li>地址: 湖南省长沙市中南大学自动化学院</li>
-                </ul>
-            </section>
-        </div>
+        <section class="content-section section-pad section-tint" id="publications" aria-labelledby="publications-title">
+          <div class="page-width">
+            <div class="section-heading publications-heading">
+              <div><p class="section-kicker">02 / <span data-copy="sections.publicationsKicker">论文</span></p><h2 id="publications-title" data-copy="sections.publicationsTitle">Selected publications</h2></div>
+              <div class="filter-group" role="group" aria-label="Publication filters">
+                <button class="filter-button is-active" data-filter="all" data-copy="filters.all">全部 <span>10</span></button>
+                <button class="filter-button" data-filter="journal" data-copy="filters.journal">期刊 <span>08</span></button>
+                <button class="filter-button" data-filter="conference" data-copy="filters.conference">会议 <span>01</span></button>
+                <button class="filter-button" data-filter="preprint" data-copy="filters.preprint">预印本 <span>01</span></button>
+              </div>
+            </div>
+            <div class="publication-list" id="publication-list"></div>
+          </div>
+        </section>
+
+        <section class="content-section section-pad" id="projects" aria-labelledby="projects-title">
+          <div class="page-width">
+            <div class="section-heading">
+              <div><p class="section-kicker">03 / <span data-copy="sections.projectsKicker">项目</span></p><h2 id="projects-title" data-copy="sections.projectsTitle">Funding &amp; projects</h2></div>
+              <p data-copy="sections.projectsIntro">面向复杂过程感知、智能系统与储能安全的研究实践。</p>
+            </div>
+            <div class="project-grid" id="project-grid"></div>
+          </div>
+        </section>
+
+        <section class="content-section section-pad section-tint" id="awards" aria-labelledby="awards-title">
+          <div class="page-width">
+            <div class="section-heading">
+              <div><p class="section-kicker">04 / <span data-copy="sections.awardsKicker">奖励</span></p><h2 id="awards-title" data-copy="sections.awardsTitle">Recognition</h2></div>
+              <p data-copy="sections.awardsIntro">科研、创新创业与学术成长中的阶段性记录。</p>
+            </div>
+            <div class="award-grid" id="award-grid"></div>
+          </div>
+        </section>
+
+        <section class="content-section section-pad section-tint" id="background" aria-labelledby="background-title">
+          <div class="page-width">
+            <div class="section-heading">
+              <div><p class="section-kicker">05 / <span data-copy="sections.backgroundKicker">背景</span></p><h2 id="background-title" data-copy="sections.backgroundTitle">Education &amp; experience</h2></div>
+              <p data-copy="sections.backgroundIntro">从智能科学与技术出发，持续在视觉感知、复杂系统建模与可信学习之间展开研究。</p>
+            </div>
+            <div class="background-grid">
+              <div><p class="subsection-label" data-copy="background.educationLabel">教育背景</p><div class="timeline" id="education-timeline"></div></div>
+              <div><p class="subsection-label" data-copy="background.experienceLabel">学术经历</p><div class="timeline" id="experience-timeline"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title">
+          <div class="page-width contact-grid">
+            <div class="contact-copy">
+              <p class="section-kicker">06 / <span data-copy="sections.contactKicker">联系</span></p>
+              <h2 id="contact-title" data-copy="sections.contactTitle">Let’s build reliable intelligence.</h2>
+              <p data-copy="sections.contactText">如果你对可信学习、视觉感知、复杂系统智能或人工智能感兴趣，欢迎通过邮件交流研究想法与合作可能。</p>
+              <a class="email-link" href="mailto:jsl@szu.edu.cn">jsl@szu.edu.cn <span>↗</span></a>
+            </div>
+            <div class="contact-card">
+              <div class="contact-row"><span data-copy="contact.affiliationLabel">当前单位</span><strong data-copy="contact.affiliation">深圳大学 · 人工智能学院</strong></div>
+              <div class="contact-row"><span data-copy="contact.emailLabel">邮箱</span><a href="mailto:jsl@szu.edu.cn">jsl@szu.edu.cn</a></div>
+              <div class="contact-row"><span>Google Scholar</span><a href="https://scholar.google.com/citations?user=Ep-tr-wAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noreferrer">Profile ↗</a></div>
+              <div class="contact-row"><span>GitHub</span><a href="https://github.com/ljs11528" target="_blank" rel="noreferrer">github.com/ljs11528 ↗</a></div>
+              <div class="contact-row"><span>ORCID</span><a href="https://orcid.org/0000-0001-6308-5599" target="_blank" rel="noreferrer">0000-0001-6308-5599 ↗</a></div>
+              <div class="contact-row"><span>DBLP</span><a href="https://dblp.org/pid/313/1300.html" target="_blank" rel="noreferrer">dblp.org/pid/313/1300.html ↗</a></div>
+              <div class="contact-row"><span>Semantic Scholar</span><a href="https://www.semanticscholar.org/author/Jinshi-Liu/2156927807" target="_blank" rel="noreferrer">Profile ↗</a></div>
+              <div class="contact-row"><span data-copy="contact.locationLabel">所在城市</span><strong data-copy="contact.location">深圳，中国</strong></div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer page-width">
+        <span>© 2026 Jinshi Liu</span>
+        <span data-copy="footer.note">Academic homepage · Shenzhen University</span>
+        <a href="#top" data-copy="footer.back">回到顶部 ↑</a>
+      </footer>
     </div>
-
-    <footer>
-        <p id="footer-en" class="content-en active">&copy; 2025 Jinshi Liu | All Rights Reserved</p>
-        <p id="footer-zh" class="content-zh">&copy; 2025 刘金狮 | 所有权利保留</p>
-    </footer>
-
-    <script>
-        function toggleLanguage() {
-            const enContent = document.querySelectorAll('.content-en');
-            const zhContent = document.querySelectorAll('.content-zh');
-            const button = document.querySelector('.lang-toggle');
-            
-            if (enContent[0].classList.contains('active')) {
-                enContent.forEach(el => el.classList.remove('active'));
-                zhContent.forEach(el => el.classList.add('active'));
-                button.textContent = 'Switch to English';
-            } else {
-                zhContent.forEach(el => el.classList.remove('active'));
-                enContent.forEach(el => el.classList.add('active'));
-                button.textContent = 'Switch to Chinese';
-            }
-        }
-    </script>
-</body>
+  </body>
 </html>
