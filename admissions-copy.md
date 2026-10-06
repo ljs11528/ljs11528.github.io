@@ -26,16 +26,23 @@
 
 ## 代表性论文
 
-1. J. Liu, P. Liu, and L. He, “A Confidence-Variance Theory for Pseudo-Label Selection in Semi-Supervised Learning,” *arXiv preprint arXiv:2601.11670*, 2026. [ADS 页面](https://ui.adsabs.harvard.edu/abs/2026arXiv260111670L/abstract) · [arXiv](https://arxiv.org/abs/2601.11670) · [代码](https://github.com/ljs11528/CoVar_Pseudo_Label_Selection)
+1. J. Liu, L. He, and P. Liu, “CoVar: Confidence-Variance-Guided Pseudo-Label Selection for Semi-Supervised Learning,” *arXiv preprint arXiv:2601.11670*, 2026. [arXiv](https://arxiv.org/abs/2601.11670) · [代码](https://github.com/ljs11528/CoVar_Pseudo_Label_Selection)
 2. P. Liu and J. Liu, “When Confidence Fails: Revisiting Pseudo-Label Selection in Semi-supervised Semantic Segmentation,” *ICCV 2025 · CCF-A*, 2025. [出版页](https://doi.org/10.1109/ICCV51701.2025.02031) · [代码](https://github.com/PanLiuCSU/CSL) · [arXiv](https://arxiv.org/abs/2509.16704)
 3. L. He, Z. Yi, J. Liu, C. Chen, M. Lu, and Z. Chen, “ALSP+: Fast Scene Recovery via Ambient Light Similarity Prior,” *TIP · CCF-A*, 2025. [出版页](https://doi.org/10.1109/TIP.2025.3586514) · [代码](https://github.com/heyuanlei/ALSP)
-4. J. Liu, Z. Jiang, W. Gui, Z. Chen, and C. Zhang, “Occlusion Segmentation: Restore and Segment Invisible Areas for Particle Objects,” *TASE · CCF-B*, 2025. [出版页](https://doi.org/10.1109/TASE.2024.3450900)
-5. Z. Jiang, C. Xu, J. Liu, W. Luo, Z. Chen, and W. Gui, “A Dual Closed-Loop Structured Modeling Method for Optimizing the Copper Disc Casting Process,” *JAS · 中科院 1 区*, 2024. [出版页](https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2023.123777)
-6. J. Liu, Z. Jiang, W. Gui, Z. Chen, W. Luo, and C. Zhang, “Hierarchical Packing Model: Estimating the Overall Particle Size Distribution From Surface Images and Permeability Properties,” *TIM · 中科院 2 区*, 2024. [出版页](https://doi.org/10.1109/TIM.2023.3338717)
-7. Z. Jiang, J. Liu, Z. Chen, W. Luo, C. Zhang, and W. Gui, “Overall Particle Size Distribution Estimation Method Based on Kinetic Modeling and Transformer Prediction,” *EAAI · 中科院 1 区*, 2024. [出版页](https://doi.org/10.1016/j.engappai.2023.107517)
-8. J. Liu, Z. Jiang, W. Gui, and Z. Chen, “A Novel Particle Size Detection System Based on RGB-Laser Fusion Segmentation With Feature Dual-Recalibration for Blast Furnace Materials,” *TIE · 中科院 1 区*, 2023. [出版页](https://doi.org/10.1109/TIE.2022.3219054)
-9. J. Liu, Z. Jiang, T. Cao, Z. Chen, C. Zhang, and W. Gui, “Generated Pseudo-Labels Guided by Background Skeletons for Overcoming Under-Segmentation in Overlapping Particle Objects,” *TCSVT · 中科院 1 区*, 2023. [出版页](https://doi.org/10.1109/TCSVT.2022.3230451)
-10. Z. Jiang, J. Yu, J. Liu, Z. Chen, W. Gui, and T. Cao, “A Coke Detection Method Based on Reweighting a Composite Feature for Mixed Material Recognition and Quantification,” *TIM · 中科院 2 区*, 2022. [出版页](https://doi.org/10.1109/TIM.2022.3216662)
+4. J. Liu, Z. Jiang, W. Gui, Z. Chen, and C. Zhang, “Occlusion Segmentation: Restore and Segment Invisible Areas for Particle Objects,” 
+*TASE · CCF-B*, 2025. [出版页](https://doi.org/10.1109/TASE.2024.3450900)
+5. Z. Jiang, C. Xu, J. Liu, W. Luo, Z. Chen, and W. Gui，研究主题：铜圆盘浇铸过程的双闭环建模（主题概述，非正式论文标题），
+*JAS · 中科院 1 区*, 2024. [出版页](https://www.ieee-jas.net/en/article/doi/10.1109/JAS.2023.123777)
+6. J. Liu, Z. Jiang, W. Gui, Z. Chen, W. Luo, and C. Zhang, “Hierarchical Packing Model: Estimating the Overall Particle Size Distribution From 
+Surface Images and Permeability Properties,” *TIM · 中科院 2 区*, 2024. [出版页](https://doi.org/10.1109/TIM.2023.3338717)
+7. Z. Jiang, J. Liu, Z. Chen, W. Luo, C. Zhang, and W. Gui, “Overall Particle Size Distribution Estimation Method Based on Kinetic Modeling and 
+Transformer Prediction,” *EAAI · 中科院 1 区*, 2024. [出版页](https://doi.org/10.1016/j.engappai.2023.107517)
+8. J. Liu, Z. Jiang, W. Gui, and Z. Chen, “A Novel Particle Size Detection System Based on RGB-Laser Fusion Segmentation With 
+Feature Dual-Recalibration for Blast Furnace Materials,” *TIE · 中科院 1 区*, 2023. [出版页](https://doi.org/10.1109/TIE.2022.3219054)
+9. J. Liu, Z. Jiang, T. Cao, Z. Chen, C. Zhang, and W. Gui, “Generated Pseudo-Labels Guided by Background Skeletons for Overcoming 
+Under-Segmentation in Overlapping Particle Objects,” *TCSVT · 中科院 1 区*, 2023. [出版页](https://doi.org/10.1109/TCSVT.2022.3230451)
+10. Z. Jiang, J. Yu, J. Liu, Z. Chen, W. Gui, and T. Cao, “A Coke Detection Method Based on Reweighting a Composite Feature for Mixed 
+Material Recognition and Quantification,” *TIM · 中科院 2 区*, 2022. [出版页](https://doi.org/10.1109/TIM.2022.3216662)
 
 ## 代表性项目
 
